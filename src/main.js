@@ -5,6 +5,9 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+// 入口文件引入公共样式
+import './common/stylus/index.styl'
+
 new Vue({
   router,
   store,
